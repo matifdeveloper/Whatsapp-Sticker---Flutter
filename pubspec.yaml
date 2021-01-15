@@ -1,0 +1,35 @@
+name: trendy_stickers
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_whatsapp_stickers: ^1.0.0+4
+  url_launcher: ^5.7.10
+  provider: ^4.3.2+3
+  esys_flutter_share: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - sticker_packs/1/
+    - sticker_packs/2/
+    - sticker_packs/3/
+    - sticker_packs/4/
+    - sticker_packs/5/
+    - sticker_packs/6/
+    - sticker_packs/sticker_packs.json
